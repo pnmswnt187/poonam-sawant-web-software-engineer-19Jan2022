@@ -10,6 +10,7 @@ Glints Interview Assignment - Buying Frenzy
 - [Web Service Documentation](#web-service-documentation)
 - [Important Notes](#important-notes)
 - [About the Service](#about-the-service)
+- [Heroku Deployment](#heroku-deployment)
 
 ## Description
 
@@ -100,8 +101,6 @@ Basic dXNlcm5hbWU6cGFzc3dvcmQ=
 
 ## About the Service
 
-Service is hosted on Heroku
-
 ProblemStatement 1: List all restaurants that are open at a certain datetime
 
 Sample Link - http://localhost:8081/buyingfrenzy/restaurants?openingHours=Mon, Weds 11:45 am
@@ -129,3 +128,25 @@ ProblemStatement 4: Process a user purchasing a dish from a restaurant, handling
 Sample Link - http://localhost:8081/buyingfrenzy/users/1?dishName=Salmon Traymore&restaurantName=Wild Salsa
 
 [![Home](src/main/resources/images/updateBuyDishTransaction.JPG)](images/updateBuyDishTransaction.JPEG)
+
+## Heroku Deployment
+
+Sample Application Links for application hosted on Heroku :
+
+GET - https://buyingfrenzy19012022.herokuapp.com/buyingfrenzy/restaurants?openingHours=Mon, Weds 11:45 am
+
+GET - https://buyingfrenzy19012022.herokuapp.com/buyingfrenzy/restaurants/toprestaurants?y=5&x=5&inputCondition=lessthen
+
+GET - https://buyingfrenzy19012022.herokuapp.com/buyingfrenzy/users/1?dishName=Salmon Traymore&restaurantName=Wild Salsa
+
+GET - https://buyingfrenzy19012022.herokuapp.com/buyingfrenzy/restaurants/relevance?columnname=restaurant&matchstring=Denver
+
+Heroku buyingfrenzy19012022 application deployment screen shots :
+
+[![Home](src/main/resources/images/heroku_appDeployed_snap.JPG)](images/heroku_appDeployed_snap.JPEG)
+
+[![Home](src/main/resources/images/heroku_appStart_snap1.JPG)](images/heroku_appStart_snap1.JPEG)
+
+[![Home](src/main/resources/images/heroku_appStart_snap2.JPG)](images/heroku_appStart_snap2.JPEG)
+
+
