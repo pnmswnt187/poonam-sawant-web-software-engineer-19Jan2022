@@ -14,8 +14,6 @@ import org.springframework.security.test.context.support.WithAnonymousUser;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.security.test.web.servlet.setup.SecurityMockMvcConfigurers;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
@@ -46,7 +44,6 @@ import com.api.buyingfrenzy.entities.Restaurants;
 import com.api.buyingfrenzy.entities.Users;
 import com.api.buyingfrenzy.service.RestaurantsService;
 import com.api.buyingfrenzy.service.UsersService;
-import com.api.buyingfrenzy.vo.UsersVO;
 
 @ExtendWith({
 	SpringExtension.class
