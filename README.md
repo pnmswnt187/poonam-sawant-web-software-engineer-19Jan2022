@@ -9,7 +9,7 @@ Glints Interview Assignment - Buying Frenzy
 - [How To Run](#how-to-run)
 - [Web Service Documentation](#web-service-documentation)
 - [Important Notes](#important-notes)
-- [About the Service](#about-the-Service)
+- [About the Service](#about-the-service)
 
 ## Description
 
@@ -18,7 +18,7 @@ Access Requirement for this API https://gist.github.com/seahyc/97b154ce5bfd4f2b6
 This project is build in Java ( version 8 ) / Spring boot ( version 2.5.2 ) / Gradle. The Application is package as a jar file using embedded tomcat.
 
 * RESTful Web services is created with Spring MVC ( org.springframework.boot:spring-boot-starter-web ).
-* In Memory Databse integration is done using JPA api ( com.h2database:h2 / org.springframework.boot:spring-boot-starter-data-jpa ).
+* In Memory Database integration is done using JPA api ( com.h2database:h2 / org.springframework.boot:spring-boot-starter-data-jpa ).
 * Web Security is achieved using Spring Security ( org.springframework.boot:spring-boot-starter-security ).
 * Testing is done using JUnit 1.8.2 and Spring boot Test api ( org.springframework.boot:spring-boot-starter-test ).
 * REST Documentation is done using REST docs ans AsciiDocs ( org.springframework.restdocs:spring-restdocs-asciidoctor / org.springframework.restdocs:spring-restdocs-mockmvc ).
@@ -44,7 +44,7 @@ gradle clean build docker
 * Pull image from Dockerhub
 	
 ```shell
-docker pull ?
+docker pull poonamsawant187/glints-interview-assignment:0.0.1-SNAPSHOT
 ```
 
 ## How To Run
@@ -60,7 +60,7 @@ java -jar ./build/libs/buyingfrenzy-0.0.1-SNAPSHOT.jar
 * Run docker image. for this approach, need to have docker install in local
 	
 ```shell
-docker run --ip localhost -p 8000:8000 ?/buyingfrenzy-0.0.1-SNAPSHOT
+docker run --ip localhost -p 8081:8081 poonamsawant187/glints-interview-assignment:0.0.1-SNAPSHOT
 ```
 
 ## Web Service Documentation
@@ -99,6 +99,8 @@ password: password
 Basic dXNlcm5hbWU6cGFzc3dvcmQ=
 
 ## About the Service
+
+Service is hosted on Heroku
 
 ProblemStatement 1: List all restaurants that are open at a certain datetime
 

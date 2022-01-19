@@ -1,7 +1,0 @@
-version: '3'
-services:
-  web:
-    container_name: glints-interview-assignment
-    image: poonamsawant187/glints-interview-assignment:0.0.1-SNAPSHOT
-    ports:
-      - "8081:8081"
