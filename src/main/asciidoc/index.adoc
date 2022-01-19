@@ -1,0 +1,63 @@
+= REST Docs Example for Simple CRUD Operation
+
+This is an example output for a service running at http://localhost:8081/buyingfrenzy
+
+== GET API Example
+
+.request
+include::{snippets}/getRestaurantsByOpeningHrs/http-request.adoc[]
+
+.response
+include::{snippets}/getRestaurantsByOpeningHrs/http-response.adoc[]
+
+== GET API Example
+
+.request
+include::{snippets}/getRestaurantsByParam/http-request.adoc[]
+
+.response
+include::{snippets}/getRestaurantsByParam/http-response.adoc[]
+
+== GET API Example
+
+.request
+include::{snippets}/getRestaurantsByRelevance/http-request.adoc[]
+
+.response
+include::{snippets}/getRestaurantsByRelevance/http-response.adoc[]
+
+== GET API Example
+
+.request
+include::{snippets}/getDishByRelevance/http-request.adoc[]
+
+.response
+include::{snippets}/getDishByRelevance/http-response.adoc[]
+
+== PUT API Example
+
+.request
+include::{snippets}/updateBuyDishTransaction/http-request.adoc[]
+
+.response
+include::{snippets}/updateBuyDishTransaction/http-response.adoc[]
+
+== PUT API Example
+
+.request
+include::{snippets}/transactionUsingInvalidUser/http-request.adoc[]
+
+.response
+include::{snippets}/transactionUsingInvalidUser/http-response.adoc[]
+
+== PUT API Example
+
+.request
+include::{snippets}/transactionUsingInvalidRestaurant/http-request.adoc[]
+
+.response
+include::{snippets}/transactionUsingInvalidRestaurant/http-response.adoc[]
+
+
+
+The data which we can see as part of documentation will loaded from MockMvc Test case data
