@@ -131,7 +131,7 @@ Sample Link - http://localhost:8081/buyingfrenzy/users/1?dishName=Salmon Traymor
 
 ## Heroku Deployment
 
-Sample Application Links for application hosted on Heroku :
+* Sample Application Links for application hosted on Heroku :
 
 GET - https://buyingfrenzy19012022.herokuapp.com/buyingfrenzy/restaurants?openingHours=Mon, Weds 11:45 am
 
@@ -144,6 +144,12 @@ GET - https://buyingfrenzy19012022.herokuapp.com/buyingfrenzy/restaurants/releva
 Heroku buyingfrenzy19012022 application deployment screen shots :
 
 [![Home](src/main/resources/images/heroku_appDeployed_snap.JPG)](images/heroku_appDeployed_snap.JPEG)
+
+* Command to trace heroku log
+
+```shell
+heroku logs --tail --app buyingfrenzy19012022
+```
 
 [![Home](src/main/resources/images/heroku_appStart_snap1.JPG)](images/heroku_appStart_snap1.JPEG)
 
